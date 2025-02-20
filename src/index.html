@@ -4,82 +4,110 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="output.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>RBM - Soluções Jurídicas </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>RBM - Soluções Jurídicas</title>
   </head>
   <body class="grid mx-auto my-0 font-roboto">
-    
-      <header class="grid  bg-gray-800 h-20 w-full px-2">
-        <div class=" h-20 w-full flex items-center justify-between max-w-7xl mx-auto ">
-          <div class="grid" id="logotipo">
+    <header class="grid bg-gray-800 h-20 w-full px-2">
+      <div
+        class="h-20 w-full flex items-center justify-between max-w-7xl mx-auto p-4"
+      >
+        <div class="grid items-center" id="logotipo">
           <h1 class="text-2xl text-zinc-100">RKM</h1>
-          <span class="text-zinc-100  ">Soluções Jurídicas</span>
-         </div>
-          <nav class="">
-            <a href="">Home</a>
-            <a href=""> Sobre</a>
-            <a href="">Serviços</a>
-            <a href="">Contatos</a>
-          </nav>
+          <span class="text-zinc-100">Soluções Jurídicas</span>
         </div>
-      </header>
+        <nav class="hidden sm:flex items-center gap-4 p-2">
+          <a href="" class="text-zinc-100 hover:text-zinc-300 duration-300"
+            >Home</a
+          >
+          <a href="" class="text-zinc-100 hover:text-zinc-300 duration-300">
+            Sobre</a
+          >
+          <a href="" class="text-zinc-100 hover:text-zinc-300 duration-300"
+            >Serviços</a
+          >
+          <a href="" class="text-zinc-100 hover:text-zinc-300 duration-300"
+            >Contatos</a
+          >
+        </nav>
+      </div>
+    </header>
 
-      <section id="hero" class="grid w-full px-2"></section>
-        <div id="container-text">
-          <b>Tagline</b>
-          <h1>Titulo Focado no problema que você resolve</h1>
-          <p>
-            Descreva de forma breve e direta o que é seu produto, para quem ele
-            é e o que torna ele tão especial
-          </p>
-        </div>
-        <div id="container-button">
-          <button>Contato</button>
-          <span>+2.000 pessoas como você já adquiriram nosso serviço.</span>
+    <section
+      id="hero"
+      class="md:px-30 md:py-18 w-full max-w-7xl mx-auto px-4"
+    >
+      <div class="md:flex md:gap-20 md:max-w-300 md:h-160">
+        <div class="flex flex-col gap-6 md:max-w-140">
+          <div id="container-text" class="flex flex-col gap-6">
+            <b class="text-sm font-light italic text-gray-800">"Na excelência e no comprometimento no direito do cliente."</b>
+            <h1 class="md:text-6xl font-bold text-gray-800">
+              Titulo Focado no problema que você resolve.
+            </h1>
+            <p class="text-lg text-gray-800">
+              Descreva de forma breve e direta o que é seu produto, para quem
+              ele é e o que torna ele tão especial
+            </p>
+          </div>
+          <div id="container-button" class="md:flex items-center justify-between max-w-111 gap-5 pt-4 ">
+            <a class="md:w-52 p-2 bg-gray-800 text-zinc-100 uppercase text-center rounded-md hover:opacity-90 duration-300" href="https://api.whatsapp.com/send?phone=5521964379567" target="_blank" rel="noopener noreferrer">Contato</a>
+            <span class="md:w-54 text-sm text-gray-800">+2.000 pessoas como você já adquiriram nosso serviço.</span>
+          </div>
         </div>
 
-        <img src="" alt="Foto do campo chamada" />      
+        <img class="md:h-full md:max-w-140 rounded-lg" src="assets/imagem-hero.png" alt="Foto do campo chamada" />
+      </div>
     </section>
 
-    <section id="benefits">
-      <h2></h2>
+    <section class="flex flex-col items-center justify-center mx-auto w-full md:py-18 md:px-50 md:gap-20" id="benefits">
+      <h2 class="md:text-4xl md:max-w-192 text-center p-2 text-gray-800">Por que a sua solução é melhor 
+        do que a atual.</h2>
 
-      <div id="container-benefits">
-        <div>
-          <img src="" alt="" />
-          <h3>Beneficio 1</h3>
-          <p></p>
+      <div id="container-benefits" class="grid md:flex md:max-w-250 h-46 gap-12 ">
+        <div class="flex flex-col items-center gap-6 md:max-w-76 ">
+          <img src="assets/icon-benefits.svg" alt="" />
+          <div class="flex flex-col gap-6 text-center md:max-w-76 ">
+          <h3 class="text-gray-800">Beneficio 1</h3>
+          <p class="text-gray-800">Qual problema ela resolve? Descreva aqui e tente provar o seu ponto.</p>
+         </div>
         </div>
 
-        <div>
-          <img src="" alt="" />
-          <h3>Beneficio 2</h3>
-          <p></p>
+        <div class="flex flex-col items-center gap-6 md:max-w-76 ">
+          <img src="assets/icon-benefits.svg" alt="" />
+          <div class="flex flex-col gap-6 text-center md:max-w-76 ">
+          <h3 class="text-gray-800">Beneficio 1</h3>
+          <p class="text-gray-800">Qual problema ela resolve? Descreva aqui e tente provar o seu ponto.</p>
+         </div>
         </div>
 
-        <div>
-          <img src="" alt="" />
-          <h3>Beneficio 3</h3>
-          <p></p>
+        <div class="flex flex-col items-center gap-6 md:max-w-76 ">
+          <img src="assets/icon-benefits.svg" alt="" />
+          <div class="flex flex-col gap-6 text-center md:max-w-76">
+          <h3 class="text-gray-800">Beneficio 1</h3>
+          <p class="text-gray-800">Qual problema ela resolve? Descreva aqui e tente provar o seu ponto.</p>
+         </div>
         </div>
       </div>
     </section>
 
-    <section id="benefits-service">
-      <div id="container-info-benefits">
-        <div id="container-list-text">
-          <b>Tagline</b>
-          <div id="container-text-benefits">
-            <h1>Um título breve sobre o benefício do seu produto/serviço</h1>
+    <section class="md:px-30 md:py-18 w-full max-w-7xl mx-auto px-4" id="benefits-service">
+      <div class="md:flex items-center md:gap-20 md:max-w-300 md:h-160" id="container-info-benefits">
+        <div id="container-list-text" class="flex flex-col gap-6 h-134 max-w-140">
+          <b class="text-sm font-light italic text-gray-800">"Proteja seus direitos: defesa estratégica em busca e apreensão!"</b>
+          <div id="container-text-benefits" class="flex flex-col gap-5">
+            <h1 class="md:text-5xl font-bold md:h-44 w-full">Um título breve sobre o benefício do seu produto/serviço</h1>
             <p>
               Se necessãrio, destaque mais detalhes sobre o problema que você
               resolve ou os benefícios do seu produto/serviço
             </p>
           </div>
           <div id="container-list">
-            <ul>
+            <ul class="max-w-111">
               <li>Destaque os benefícios ou as dores que você resolve</li>
               <li>Destaque os benefícios</li>
               <li>Destaque os benefícios</li>
@@ -191,66 +219,74 @@
       <div id="container-faqs">
         <div id="text-faqs">
           <h1>Perguntas Frequentes (FAQs)</h1>
-          <p>FAQ’s (Frequently Asked Questions) bem escritas podem entregar valor. Se você conhece seu público, sabe as perguntas frequentes - utilize aquelas que mais geram mais contato com o suporte. Não invente perguntas. </p>
+          <p>
+            FAQ’s (Frequently Asked Questions) bem escritas podem entregar
+            valor. Se você conhece seu público, sabe as perguntas frequentes -
+            utilize aquelas que mais geram mais contato com o suporte. Não
+            invente perguntas.
+          </p>
         </div>
 
         <div id="container-question">
           <a href="">
             Pergunta numero um
 
-            <img src="assets/arrow-down.svg" alt="Imagem seta para baixo">
+            <img src="assets/arrow-down.svg" alt="Imagem seta para baixo" />
           </a>
           <a href="">
             Pergunta numero um
 
-            <img src="assets/arrow-down.svg" alt="Imagem seta para baixo">
+            <img src="assets/arrow-down.svg" alt="Imagem seta para baixo" />
           </a>
           <a href="">
             Pergunta numero um
 
-            <img src="assets/arrow-down.svg" alt="Imagem seta para baixo">
+            <img src="assets/arrow-down.svg" alt="Imagem seta para baixo" />
           </a>
           <a href="">
             Pergunta numero um
 
-            <img src="assets/arrow-down.svg" alt="Imagem seta para baixo">
+            <img src="assets/arrow-down.svg" alt="Imagem seta para baixo" />
           </a>
           <a href="">
             Pergunta numero um
 
-            <img src="assets/arrow-down.svg" alt="Imagem seta para baixo">
+            <img src="assets/arrow-down.svg" alt="Imagem seta para baixo" />
           </a>
-          
         </div>
       </div>
     </section>
     <section id="call-to-action">
       <div id="text-calltoaction">
-      <h1>Porque que a pessoa deve clicar</h1>
-      <p>Uma breve explicação das vantagens de clicar e o como vai afetar o ultilizador</p>
+        <h1>Porque que a pessoa deve clicar</h1>
+        <p>
+          Uma breve explicação das vantagens de clicar e o como vai afetar o
+          ultilizador
+        </p>
       </div>
 
       <button>CTA</button>
-
     </section>
 
     <footer id="final-container">
       <div id="container-newsletter">
-        <img src="" alt="logo da pagina">
+        <img src="" alt="logo da pagina" />
 
         <div>
           <h4>Subscreva a nossa Newsletter</h4>
-          <p>Inscreva-se na nossa newsletter e fique por dentro de nossos lançamentos.</p>
+          <p>
+            Inscreva-se na nossa newsletter e fique por dentro de nossos
+            lançamentos.
+          </p>
 
           <form action="">
-            <input type="email"  placeholder="Digite aqui seu email">
+            <input type="email" placeholder="Digite aqui seu email" />
             <button type="submit">Subscrever</button>
           </form>
         </div>
       </div>
 
       <div id="tags-links">
-
         <div id="copyright">
           <span>© 2023 . Todos os direitos reservados.</span>
           <span>Política de Privacidade</span>
@@ -259,12 +295,10 @@
         </div>
 
         <div>
-          <a href=""><img src="assets/instagram.svg" alt="instagram"></a>
-          <a href=""><img src="assets/linkedin.svg" alt="linkedin"></a>
-        
+          <a href=""><img src="assets/instagram.svg" alt="instagram" /></a>
+          <a href=""><img src="assets/linkedin.svg" alt="linkedin" /></a>
         </div>
       </div>
-
     </footer>
   </body>
 </html>
