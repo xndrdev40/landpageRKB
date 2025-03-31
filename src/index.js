@@ -3,6 +3,7 @@ const questions = document.querySelectorAll("#question-one, #question-dois, #que
 
 const tradeimgs = document.querySelectorAll(".click-faq img, .click-faq-um img, .click-faq-dois img, .click-faq-tres img");
 
+document.querySelector("iframe").setAttribute("loading", "lazy")
 
 let imgUm = "assets/arrow-down.svg"
 let imgDois = "assets/arrow-up.svg"
