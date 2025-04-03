@@ -1,3 +1,3 @@
 export const apiConfig = {
-  baseURL: "http://localhost:3000",
+  baseURL: "https://xndrdev40.github.io/lead_api/server.json",
 }
