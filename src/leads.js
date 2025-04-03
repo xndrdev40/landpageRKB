@@ -13,7 +13,7 @@ telClient.addEventListener("input", function(){
 })
 
 emailClient.addEventListener("input", function(){
-  this.value = this.value.replace(/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/, "")
+  this.value = this.value.replace(/[^a-zA-Z0-9@._%+-]/g, "")
 })
 
 addEventListener("submit", async (event) =>{
