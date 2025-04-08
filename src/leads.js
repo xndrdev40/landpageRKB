@@ -19,7 +19,7 @@ emailClient.addEventListener("input", function(){
 addEventListener("submit", async (event) =>{
   event.preventDefault()  
   
-await  fetch("https://xndrdev40.github.io/lead_api/server.json", {
+await  fetch("https://nodejs-production-e3dd.up.railway.app/lead", {
     method: "POST",
     headers:{
       "content-Type": "application/json"

@@ -1,3 +1,3 @@
 export const apiConfig = {
-  baseURL: "https://xndrdev40.github.io/lead_api/server.json",
+  baseURL: "https://nodejs-production-e3dd.up.railway.app/lead",
 }
