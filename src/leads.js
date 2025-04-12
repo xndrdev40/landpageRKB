@@ -19,7 +19,7 @@ emailClient.addEventListener("input", function(){
 addEventListener("submit", async (event) =>{
   event.preventDefault()  
   
-await  fetch("https://nodejs-production-e3dd.up.railway.app/lead", {
+await  fetch("https://web-production-e57d6.up.railway.app/leads", {
     method: "POST",
     headers:{
       "content-Type": "application/json"

@@ -1,3 +1,3 @@
 export const apiConfig = {
-  baseURL: "https://nodejs-production-e3dd.up.railway.app/lead",
+  baseURL: "https://web-production-e57d6.up.railway.app/leads",
 }
